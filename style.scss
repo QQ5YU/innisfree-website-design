@@ -5,7 +5,12 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
 }
 
@@ -22,6 +27,7 @@ header {
     div.logo {
         padding: 1.5rem 1.5rem 0.5rem 1.5rem;
         flex: 1 1 100px;
+
         img {
             width: 10vw;
             height: 2vw;
@@ -30,13 +36,14 @@ header {
 
     nav {
         flex: 1 1 100px;
+
         ul {
             display: flex;
             list-style: none;
             float: right;
-            justify-content: center;    
+            justify-content: center;
 
-            li{
+            li {
                 padding: 1.5rem;
                 cursor: pointer;
                 color: #094438;
@@ -51,6 +58,7 @@ main {
         section.selt {
             width: 100%;
             padding-bottom: 0.5rem;
+
             ul {
                 display: flex;
                 list-style: none;
@@ -59,15 +67,16 @@ main {
                 font-size: 0.8rem;
                 color: #888888;
                 flex-wrap: wrap;
+
                 li {
                     cursor: pointer;
                 }
             }
         }
-    
+
         section.bk {
             min-height: 86.5vh;
-            width: 100vw;
+            width: 98vw;
             background-image: url("./imgs/bk.webp");
             background-position: center;
             background-size: cover;
@@ -78,7 +87,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
         h2 {
 
             margin: 4rem 82% 1rem 2rem;
@@ -94,7 +103,8 @@ main {
             width: 80%;
             min-height: 80vh;
             flex-wrap: wrap;
-            section.card { 
+
+            section.card {
                 position: relative;
                 display: flex;
                 flex-direction: column;
@@ -109,7 +119,7 @@ main {
                         height: 18vw;
                     }
                 }
-                    
+
                 div.retn {
                     position: absolute;
                     top: 0;
@@ -117,7 +127,7 @@ main {
                     width: 20vw;
                     height: 25vw;
                     background-color: #094438;
-                 }
+                }
 
                 h3 {
                     width: 20vw;
@@ -139,7 +149,7 @@ main {
                     height: 3vw;
                     transition: all 0.3s ease-in-out;
                 }
-                
+
                 a:hover {
                     background-color: white;
                     color: #094438;
@@ -148,14 +158,15 @@ main {
                     padding-top: 0.6rem;
                 }
 
-                
-               
+
+
             }
         }
     }
 
     section.page3 {
         width: 100%;
+
         h2 {
 
             margin: 4.5rem 0 2.5rem 4rem;
@@ -163,47 +174,52 @@ main {
             font-weight: normal;
 
         }
-        section.slider{
+
+        section.slider {
             position: relative;
+
             div.display-container {
                 width: 81%;
                 min-height: 75vh;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                
+
                 margin: 0 auto;
-                
+
                 div.left {
                     display: flex;
                     flex: 1 1 fit-content;
                     width: 50%;
                     justify-content: flex-end;
                     align-items: center;
+
                     img {
                         width: 30vw;
                         height: 32vw;
-                        
+
                     }
                 }
+
                 div.line {
                     width: 2px;
                     background-color: #c9c9c9;
                     margin: 1rem 2.5rem;
                 }
+
                 div.right {
                     display: flex;
                     flex-direction: column;
                     float: left;
                     flex: 1 1 400px;
-                    
-    
+
+
                     h1 {
                         width: 30vw;
                         text-align: center;
                         margin-top: 2rem;
                     }
-    
+
                     p {
                         width: 23vw;
                         margin: 1rem 2rem 1rem 3.25rem;
@@ -211,13 +227,13 @@ main {
                     }
                 }
             }
-           
+
         }
 
 
-        
+
     }
-    
+
 
 }
 
@@ -228,22 +244,26 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     section.container {
         width: 70%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+
         section.foot-left {
             img.footlogo {
                 margin-top: 3rem;
                 width: 15vw;
                 height: 3vw;
             }
+
             div.icon {
                 display: flex;
                 flex-direction: row;
                 width: 15vw;
                 justify-content: flex-end;
+
                 a {
                     img.iconimg {
                         width: 2vw;
@@ -252,43 +272,50 @@ footer {
                     }
                 }
             }
+
             div.copyright {
                 display: flex;
                 flex-direction: column;
                 margin-top: 2.25rem;
-                
+
                 h6 {
                     font-size: 0.5rem;
                     color: white;
                 }
             }
+
             div.link {
                 margin-top: 0.5rem;
                 font-size: 0.5rem;
+
                 a {
                     color: white;
                     text-decoration: none;
                 }
+
                 span {
                     color: white;
                 }
             }
         }
+
         section.foot-middle {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             div.retan {
                 width: 10vw;
                 height: 1vw;
                 background-color: white;
                 margin-bottom: 2rem;
             }
+
             div.logotree {
                 img {
                     width: 12vw;
-                    height:6vw;
+                    height: 6vw;
                 }
             }
         }
@@ -297,6 +324,7 @@ footer {
             display: flex;
             flex-direction: column;
             justify-content: center;
+
             a {
                 font-size: 1.25rem;
                 margin-top: 2rem;
@@ -316,7 +344,7 @@ footer {
 
 @media screen and (max-width: 700px) {
     header {
-        div.logo{
+        div.logo {
             img {
                 width: 15vw;
                 height: 3vw;
@@ -327,7 +355,7 @@ footer {
 
 @media screen and (max-width: 1350px) {
     main {
-        section.page2{
+        section.page2 {
             section.cards {
                 section.card {
                     a {
@@ -339,12 +367,12 @@ footer {
             }
         }
     }
-    
+
 }
 
 @media screen and (max-width: 1250px) {
     main {
-        section.page2{
+        section.page2 {
             section.cards {
                 section.card {
                     a {
@@ -356,12 +384,12 @@ footer {
             }
         }
     }
-    
+
 }
 
 @media screen and (max-width: 1150px) {
     main {
-        section.page2{
+        section.page2 {
             section.cards {
                 section.card {
                     h3 {
@@ -371,7 +399,7 @@ footer {
             }
         }
     }
-    
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -381,12 +409,14 @@ footer {
                 display: none;
             }
         }
-        section.page2{
+
+        section.page2 {
             section.cards {
                 section.card {
                     h3 {
                         font-size: 1rem;
                     }
+
                     a {
                         margin-top: 1rem;
                         font-size: 0.7rem;
@@ -396,6 +426,5 @@ footer {
             }
         }
     }
-    
-}
 
+}
